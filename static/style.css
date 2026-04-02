@@ -1,0 +1,16 @@
+body{background-color: lightgreen;
+color:red;
+display:flex;
+flex-direction:column;
+text-align: center;
+justify-contect:center;
+height:100vh;
+margin: 0;}
+button{background-color: blue;
+color: yellow;
+position: absolute;
+top:50px;
+animation: bounce 1s  infinite ease-in-out;}
+@keyframes bounce{0%,100%{transform: translate(0,0);}
+50%{transform: translateY(-50px);}
+100%{transform: translateY(0,0);}}
