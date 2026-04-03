@@ -1,5 +1,5 @@
 # Flask
-here i learn how flask works whit `html`, `css` and `javascript`
+here i learn how flask works with `html`, `css` and `javascript`
 backend is **python and Flask**
 style is **css** and body is **html**
 next **adding javascript**
@@ -9,4 +9,4 @@ this web site is done **Acode** and **termux** only used phone
 **javascript** is now here 
 **button no work on mobile** because its lisening now pc mouse if wanna recommend use `touchastart`
 # Update
-SQL now addet
+SQL now added
