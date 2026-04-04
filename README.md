@@ -11,7 +11,7 @@ this web site is done **Acode** and **termux** only used phone
 # Update
 SQL now added
 # Update
-## WORNIG DOT GIVE REAL DEATILES
+##WORNIG DOT GIVE REAL DEATILES##
 now button works on mobile and pc 
 and **SQL SAVE DATA** 
 # Update
