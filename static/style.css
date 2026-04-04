@@ -1,6 +1,7 @@
 body{background-color: lightgreen;
 color:red;
-text-align: center;}
+text-align: center;
+transition: backgroundColor 1s ease;}
 button{background-color: blue;
 color: yellow;}
 @keyframe bounce{0%,100%{transform: tranlate(0,0);}
