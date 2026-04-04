@@ -1,4 +1,4 @@
-from flask import Flask,render_template
+from flask import Flask,render_template, request
 import json
 import sqlite3
 
@@ -9,19 +9,19 @@ def memory():
     cursor=connect.cursor()
     cursor.execute("CREATE TABLE IF NOT EXISTS memory (text TEXT)")
     data=cursor.fetchall()
-
-def save_data():
     write_text=request.form.get('user_text')
     connect=sqlite3.connect('document.db')
     cursor=connect.cursor()
-    cursor.execute("INSERT INTO memory (text) VALUES(?)", (write_text))
+    cursor.execute(f"INSERT INTO memory (text) VALUES(?)", (write_text,))
     connect.commit()
-    comnect.close()
-    return f"save {write_text}"
+    connect.close()
+    return render_template('thanks.html')
 
 @app.route('/')
 def home():
-    return  render_template('index.html')
+    return render_template('index.html')
+@app.route('/thanks')
+def show_thanks():
+    return  render_template('thanks.html')
 if __name__ =='__main__':
-    memory()
     app.run(debug=True)
