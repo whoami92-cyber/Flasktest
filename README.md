@@ -10,3 +10,6 @@ this web site is done **Acode** and **termux** only used phone
 **button no work on mobile** because its lisening now pc mouse if wanna recommend use `touchastart`
 # Update
 SQL now added
+# Update
+now button works on mobile and pc 
+and **SQL SAVE DATA**
