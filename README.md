@@ -15,4 +15,7 @@ SQL now added
 now button works on mobile and pc 
 and **SQL SAVE DATA** 
 # Update
-now added timer what gives back backgroundcolor
+now added timer what gives back 
+backgroundcolor
+# Update
+backgroundcolor switch taked off and `new pege` added
