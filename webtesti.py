@@ -12,7 +12,7 @@ def memory():
     write_text=request.form.get('user_text')
     connect=sqlite3.connect('document.db')
     cursor=connect.cursor()
-    cursor.execute(f"INSERT INTO memory (text) VALUES(?)", (write_text,))
+    cursor.execute("INSERT INTO memory (text) VALUES(?)", (write_text,))
     connect.commit()
     connect.close()
     return render_template('thanks.html')
