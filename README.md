@@ -5,7 +5,7 @@ style is **css** and body is **html**
 next **adding javascript**
 
 this web site is done **Acode** and **termux** only used phone
-`here is link website` [OPEN WEBSITE](https://flasktest-v2b8.onrender.com)
+`here is link website` [OPEN WEBSITE](https://flasktest-v2b8.onrender.com) **note website is render free so its wakeup**
 # update
 **javascript** is now here 
 **button no work on mobile** because its lisening now pc mouse if wanna recommend use `touchastart`
